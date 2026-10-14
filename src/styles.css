@@ -48,7 +48,7 @@ a {
   z-index: -2;
   opacity: 0.5;
   pointer-events: none;
-  background-image: url("./Hero.png");
+  /* background-image: url("./Hero.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

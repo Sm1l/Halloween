@@ -29,7 +29,13 @@ function App() {
   return (
     <main>
       <section className="hero" id="home">
-        <div className="hero-art" aria-hidden="true" />
+        <div
+          className="hero-art"
+          aria-hidden="true"
+          style={{
+            backgroundImage: `url("${import.meta.env.BASE_URL}Hero.png")`,
+          }}
+        />
         <div className="hero-vignette" />
         <div className="moon" aria-hidden="true" />
         {bats.map((bat, i) => (
