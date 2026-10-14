@@ -59,7 +59,7 @@ function App() {
           </h1>
           <p className="hero-subtitle">Страшно весело будет всем</p>
         </motion.div>
-        {/* <motion.div
+        <motion.div
           className="pumpkin"
           animate={{ y: [0, -10, 0], rotate: [-5, 10, -5] }}
           transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut" }}
@@ -67,7 +67,7 @@ function App() {
           role="img"
         >
           🎃
-        </motion.div> */}
+        </motion.div>
         <motion.div
           className="skeleton skeleton-left"
           animate={{ rotate: [-8, 8, -8], y: [0, -20, 0] }}
@@ -89,7 +89,13 @@ function App() {
         <div className="hero-grain" aria-hidden="true" />
       </section>
 
-      <section className="details" id="details">
+      <section
+        className="details"
+        id="details"
+        style={{
+          backgroundImage: `url("${import.meta.env.BASE_URL}Details.png")`,
+        }}
+      >
         <div className="details-inner">
           <motion.div
             className="section-heading"
