@@ -36,12 +36,6 @@ a {
   background: #09090b;
 }
 
-@media (max-width: 460px) {
-  .hero-title {
-    font-size: 3.5rem;
-  }
-}
-
 .hero-art {
   position: absolute;
   inset: 0;
@@ -362,24 +356,17 @@ footer span {
     transform: translateY(5px);
   }
 }
-@media (max-width: 600px) {
-  .hero {
-    min-height: 92svh;
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 3.5rem;
   }
+
   .hero-art {
     background-position: 52% center;
-    opacity: 0.3;
   }
-  .moon {
-    width: 55vw;
-    right: -3%;
-    top: 10%;
-  }
-  .hero-copy {
-    margin-top: -13vh;
-  }
+
   .eyebrow {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .pumpkin {
     bottom: 11%;
