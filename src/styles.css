@@ -384,6 +384,11 @@ footer span {
   .bat {
     font-size: 1.5rem;
   }
+
+  .details {
+    background-position: right;
+  }
+
   .details-inner {
     width: min(100% - 28px, 900px);
     padding-top: 70px;
